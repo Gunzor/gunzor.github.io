@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+img{
+    max-width: 100%;
+}
+
+body{
+    background-color: rgb(201, 212, 153);
+}
+
+.burger{
+    display: grid;
+    
+}
+
+.rodun{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.leturval{
+    padding: 10px;
+    font-family: 'Lobster', cursive;
+}
+
+.bil{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.efnis2{
+    background-color: rgb(248, 227, 164);
+    padding: 15px;
+    
+}
+
+.efnisy{
+    display: none;
+    grid-template-columns:1fr ;
+    
+    
+}
+
+
+
+.fotur{display: grid;
+    grid-template-columns: 1fr;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color:rgb(248, 227, 164) ;
+    text-align: center;
+}
+
+.arrow{position: fixed;
+    right:50px; bottom: 50px;
+    background: rgb(103, 28, 233);
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    font-size: 2em;
+    text-align: center;
+    
+    }
+
+
+@media screen and (min-width:37.5em){
+    .rodun{display: grid;
+    grid-template-columns: 1fr 1fr;}
+    .fotur{display: grid; grid-template-columns: 1fr 1fr 1fr;}
+    .efnisy{
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr 1fr ;
+        background-color: rgb(248, 227, 164);
+        padding: 15px;
+    }
+    .burger{
+        display: none;
+    }
+}
